@@ -74,7 +74,7 @@
 - (TYHTitleButton *)titleView1
 {
     if (_titleView1 == nil) {
-        _titleView1 = [[TYHTitleButton alloc ] initWithTitle:@"TYHTitleButton" NormalImage:@"up" highLight:@"down"];
+        _titleView1 = [[TYHTitleButton alloc ] initWithTitle:@"按钮的标题" NormalImage:@"up" highLight:@"down"];
         _titleView1.distance = 5;
         _titleView1.showMode = TYHTitleButtonImageRight;
     }
@@ -83,7 +83,7 @@
 - (TYHTitleButton *)titleView2
 {
     if (_titleView2 == nil) {
-        _titleView2 = [[TYHTitleButton alloc ] initWithTitle:@"TYHTitleButton" NormalImage:@"up" highLight:@"down"];
+        _titleView2 = [[TYHTitleButton alloc ] initWithTitle:@"按钮的标题" NormalImage:@"up" highLight:@"down"];
         _titleView2.distance = 5;
         _titleView2.showMode = TYHTitleButtonImageleft;
     }
@@ -92,7 +92,7 @@
 - (TYHTitleButton *)titleView3
 {
     if (_titleView3 == nil) {
-        _titleView3 = [[TYHTitleButton alloc ] initWithTitle:@"TYHTitleButton" NormalImage:@"up" highLight:@"down"];
+        _titleView3 = [[TYHTitleButton alloc ] initWithTitle:@"按钮的标题" NormalImage:@"up" highLight:@"down"];
         _titleView3.distance = 5;
         _titleView3.showMode = TYHTitleButtonImageTop;
     }
@@ -101,7 +101,7 @@
 - (TYHTitleButton *)titleView4
 {
     if (_titleView4 == nil) {
-        _titleView4 = [[TYHTitleButton alloc ] initWithTitle:@"TYHTitleButton" NormalImage:@"up" highLight:@"down"];
+        _titleView4 = [[TYHTitleButton alloc ] initWithTitle:@"按钮的标题" NormalImage:@"up" highLight:@"down"];
         _titleView4.distance = 5;
         _titleView4.showMode = TYHTitleButtonImagedown;
     }
